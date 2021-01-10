@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "plex-watched-sync"
-version = "0.1.0"
+version = "0.1.1"
 description = "Small tool to synchronize watched status from one Plex server to another"
 authors = ["Stephan Peijnik-Steinwender <speijnik@gmail.com>"]
 license = "MIT"
