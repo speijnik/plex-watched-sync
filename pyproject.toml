@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "plex-watched-sync"
+version = "0.1.0"
+description = "Small tool to synchronize watched status from one Plex server to another"
+authors = ["Stephan Peijnik-Steinwender <speijnik@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/speijnik/plex-watched-sync"
+repository = "https://github.com/speijnik/plex-watched-sync"
+keywords = ["plex", "sync"]
+classifiers = [
+  "Environment :: Console",
+  "Operating System :: OS Independent"
+]
+include = [
+  "LICENSE.md"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PlexAPI = "^4.2.0"
+click = "^7.1.2"
+typing-extensions = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+ipython = "^6"
+
+[tool.poetry.scripts]
+plex-watched-sync = "plex_watched_sync.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
