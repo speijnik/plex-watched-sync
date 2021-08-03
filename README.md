@@ -13,6 +13,12 @@ pip3 install plex-watched-sync
 plex-watched-sync
 ```
 
+**or** with [pipx](https://github.com/pypa/pipx#install-pipx):
+
+```bash
+pipx run plex-watched-sync
+```
+
 **or**
 
 ```bash
